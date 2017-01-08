@@ -15,7 +15,7 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <noscript><link rel="stylesheet" href="{{url_for('static', filename='css/noscript.css')}}" /></noscript>
   </head>
-  <body class="is-loading">
+  <body class="is-loading" style="background-size: 100% 100%">
 
     <!-- Wrapper -->
       <div id="wrapper">
@@ -27,12 +27,11 @@
               <!-- <span class="avatar"><img src="images/avatar.jpg" alt="" /></span> -->
               <!-- <span class="avatar"></span> -->
               <h1><i>"We Are Water"</i></h1>
-              <ul class="icons">
-                <li><a href="/" class="fa fa-refresh fa-spin fa-x fa-fw">Create more!</a></li>
-              </ul>
+              <a href="/">Create more!</a>
+              <br><br>
               
               <!-- <p><a href="/">Create more!</a></p> -->
-              <img src="{{ imageURL }}">
+              <img src="{{ imageURL }}" style="width: 100%">
             </header>
 
         <!-- Footer -->
