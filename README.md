@@ -1,4 +1,4 @@
-#### Tweebo clone avatar generator for *We are water* social awareness campaign
+#### Tweebo clone watermark avatar generator for *We are water* social awareness campaign
 
 Once you install the dependencies
 
