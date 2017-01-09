@@ -8,5 +8,3 @@ App by default binds to `port=8000`
 
 ![](./uploads/library3-big.jpg)
 ![](./target_images/wm_library3-big.jpg)
-
-

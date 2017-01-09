@@ -75,7 +75,7 @@ print("Initialized mainter")
 # For a given file, return whether it's an allowed type or not
 def allowed_file(filename):
     return '.' in filename and \
-           filename.rsplit('.', 1)[1] in app.config['ALLOWED_EXTENSIONS']
+           filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
 
 # This route will show a form to perform an AJAX request
 # jQuery is loaded to execute the request and update the
