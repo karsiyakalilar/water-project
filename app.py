@@ -36,7 +36,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './uploads/'
 app.config['TARGET_FOLDER'] = './target_images/'
 app.config['ASSET_FOLDER'] = './assets/'
-app.config["WATERMARK_IMAGE"] = "./assets/water.png"
+app.config["WATERMARK_IMAGE"] = "./assets/water_lighter.png"
 
 # These are the extension that we are accepting to be uploaded
 app.config['ALLOWED_EXTENSIONS'] = set(['png', 'jpg', 'jpeg', 'JPG', 'JPEG'])
